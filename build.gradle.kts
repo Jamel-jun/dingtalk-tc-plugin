@@ -46,6 +46,7 @@ teamcity {
 
     server {
         descriptor = file("${rootDir}/teamcity-plugin.xml")
+        archiveName = "dingtalk"
 
         publish {
             channels = mutableListOf("Beta")
