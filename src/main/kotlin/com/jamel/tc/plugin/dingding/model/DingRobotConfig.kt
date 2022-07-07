@@ -1,4 +1,4 @@
-package com.jamel.tc.plugin.dingding.entity
+package com.jamel.tc.plugin.dingding.model
 
 data class DingRobotConfig(
     val dingNoticeEnabled: Boolean = false,

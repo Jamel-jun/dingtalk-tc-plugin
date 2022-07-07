@@ -1,8 +1,7 @@
 package com.jamel.tc.plugin.dingding
 
-import com.jamel.tc.plugin.dingding.entity.BuildStatus
-import com.jamel.tc.plugin.dingding.entity.DingRobotConfig
-import com.jamel.tc.plugin.dingding.entity.DingRobotInfo
+import com.jamel.tc.plugin.dingding.model.BuildStatus
+import com.jamel.tc.plugin.dingding.model.DingRobotInfo
 import jetbrains.buildServer.serverSide.*
 import jetbrains.buildServer.util.EventDispatcher
 import java.util.*

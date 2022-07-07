@@ -16,7 +16,6 @@ dependencies {
     implementation("cn.hutool:hutool-all:+")
 
     compileOnly("org.jetbrains.teamcity:server-api:+")
-//    compileOnly("org.jetbrains.teamcity:server-web-api:+")
     testImplementation(kotlin("test"))
 }
 

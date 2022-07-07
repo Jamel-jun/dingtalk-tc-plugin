@@ -1,14 +1,11 @@
 package com.jamel.tc.plugin.dingding
 
 import cn.hutool.core.io.FileUtil
-import cn.hutool.core.io.IoUtil
-import cn.hutool.core.util.SystemPropsUtil.getProps
 import cn.hutool.setting.dialect.Props
-import com.jamel.tc.plugin.dingding.entity.DingRobotConfig
+import com.jamel.tc.plugin.dingding.model.DingRobotConfig
 import jetbrains.buildServer.serverSide.SProject
 import jetbrains.buildServer.serverSide.SProjectFeatureDescriptor
 import jetbrains.buildServer.serverSide.ServerPaths
-import org.apache.logging.log4j.core.impl.ThrowableFormatOptions.FILE_NAME
 
 /**
  * Config storage functions that allows finding project hierarchy dependent

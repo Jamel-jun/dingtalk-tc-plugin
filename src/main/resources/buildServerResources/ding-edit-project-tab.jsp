@@ -10,7 +10,7 @@
     ${teamcityPluginResourcesPath}js/ding-edit-project-config.js
 </bs:linkScript>
 
-<form id="deployDashboardForm" method="post" action="${actionUrl}" onsubmit="return saveDeploymentDashboardConfig(this, '${actionUrl}')">
+<form id="deployDashboardForm" method="post" action="${actionUrl}" onsubmit="return BS.ServerConfigForm.submitSettings()  saveDeploymentDashboardConfig(this, '${actionUrl}')">
 
     <div class="editDeploySettingsPage">
         <p>

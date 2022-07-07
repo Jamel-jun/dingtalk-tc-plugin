@@ -1,4 +1,4 @@
-package com.jamel.tc.plugin.dingding.entity
+package com.jamel.tc.plugin.dingding.model
 
 import java.util.Date
 

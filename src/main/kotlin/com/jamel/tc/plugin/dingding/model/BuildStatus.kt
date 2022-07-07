@@ -1,4 +1,4 @@
-package com.jamel.tc.plugin.dingding.entity
+package com.jamel.tc.plugin.dingding.model
 
 /**
  * 构建状态

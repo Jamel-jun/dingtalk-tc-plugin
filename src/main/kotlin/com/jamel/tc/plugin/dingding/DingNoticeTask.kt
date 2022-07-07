@@ -6,8 +6,8 @@ import cn.hutool.crypto.digest.HMac
 import cn.hutool.crypto.digest.HmacAlgorithm
 import com.dingtalk.api.DefaultDingTalkClient
 import com.dingtalk.api.request.OapiRobotSendRequest
-import com.jamel.tc.plugin.dingding.entity.DingRobotConfig
-import com.jamel.tc.plugin.dingding.entity.DingRobotInfo
+import com.jamel.tc.plugin.dingding.model.DingRobotConfig
+import com.jamel.tc.plugin.dingding.model.DingRobotInfo
 import java.lang.RuntimeException
 
 

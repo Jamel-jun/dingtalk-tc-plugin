@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletRequest
 class DingAdminPage(pagePlaces: PagePlaces, descriptor: PluginDescriptor, private val dingRobotConfigStore: DingRobotConfigStore) : AdminPage(pagePlaces) {
 
     init {
-        pluginName = "ding-plugin-name";
-        includeUrl = descriptor.getPluginResourcesPath("ding-edit-project-tab.jsp");
-        tabTitle = "钉钉机器人通知设置"
+        pluginName = "dingTalk";
+        includeUrl = descriptor.getPluginResourcesPath("ding-edit-project-tab.jsp")
+        tabTitle = "钉钉机器人通知"
         register()
     }
 

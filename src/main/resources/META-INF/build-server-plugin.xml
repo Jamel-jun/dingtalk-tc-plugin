@@ -10,6 +10,9 @@
 
     <bean id="dingRobotConfigStore" class="com.jamel.tc.plugin.dingding.DingRobotConfigStore" />
     <bean id="buildEventListener" class="com.jamel.tc.plugin.dingding.BuildEventListener" />
+
+    <bean id="dingBuildTypeTab" class="com.jamel.tc.plugin.dingding.page.DingBuildTypeTab" />
+    <bean id="dingProjectTab" class="com.jamel.tc.plugin.dingding.page.DingProjectTab" />
     <bean id="dingAdminPage" class="com.jamel.tc.plugin.dingding.page.DingAdminPage" />
     <bean id="dingAdminController" class="com.jamel.tc.plugin.dingding.page.DingAdminController" />
 
